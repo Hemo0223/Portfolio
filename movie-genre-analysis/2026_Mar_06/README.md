@@ -20,14 +20,20 @@ README
 
 # 분석 디테일
 1. 기본 트렌드 분석 (basic_analysis.py)
+2. 
 이 코드는 연도를 10년으로 묶어놓은 다음, 각 시대별로 top1000 안에 들었던 영화들 중 가장 인기 많았던 장르가 무엇인지 막대 그래프로 시각화했습니다. 
+
 
 ![Basic Bar Chart](./basic_analysis.png)
 
+
 2. 더 분석하기 (more_analysis.py)
+3. 
 위 그래프를 보고 난 후, 가장 인기 많았던 top3 장르도 같이 표시하면 더욱 보기 쉬울지도 모르겠다는 호기심이 들었습니다. 그 결과물이 이 more_analysis 코드입니다. 코드를 실행시키면 아래 사진처럼 어느 장르가 얼마나 비중을 차지하는지도 같이 볼 수 있습니다.
 
+
 ![more Bar Chart](./more_analysis.png)
+
 
 ---
 
@@ -71,4 +77,5 @@ Driven by curiosity to see a more detailed breakdown, I refined the code to visu
 
 # Future Goals
 This was a small but significant milestone for me. I am committed to leveling up my skills and will continue to build a more robust portfolio with increasingly advanced projects.
+
 
