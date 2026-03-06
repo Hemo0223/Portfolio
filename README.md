@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 
 Uni student in Korea - AI and Analyzing Bigdata (Main major - Chinese Studies)
 
