@@ -1,4 +1,4 @@
-README
+#README
 
 언어 순서
 한국어, 영어, 중국어
@@ -43,16 +43,16 @@ Matplotlib
 
 ## 주요 결과
 
-*시대에 따라 우세한 장르가 변화하는 경향이 확인됨
-*특정 장르가 지속적으로 상위권을 유지하는 패턴 존재
-*단일 장르보다 복수 장르의 비율을 함께 볼 때 트렌드 해석이 더 명확해짐
+- 시대에 따라 우세한 장르가 변화하는 경향이 확인됨
+- 특정 장르가 지속적으로 상위권을 유지하는 패턴 존재
+- 단일 장르보다 복수 장르의 비율을 함께 볼 때 트렌드 해석이 더 명확해짐
 
 
 ## 향후 개선 방향
 
-*더 많은 데이터셋을 활용한 비교 분석
-*장르 외 요소(평점, 수익 등)와의 상관관계 분석
-*시계열 분석 기법을 활용한 트렌드 예측
+- 더 많은 데이터셋을 활용한 비교 분석
+- 장르 외 요소(평점, 수익 등)와의 상관관계 분석
+- 시계열 분석 기법을 활용한 트렌드 예측
 
 -----
 
@@ -86,13 +86,56 @@ This version extends the analysis by visualizing the top three genres as a stack
 It shows not only the most dominant genre but also the relative proportions of the top genres, making trends easier to interpret.
 
 ## Key Findings
-*Genre popularity changes over time
-*Some genres consistently remain dominant
-*Viewing multiple top genres together provides clearer insight into trends
+- Genre popularity changes over time
+- Some genres consistently remain dominant
+- Viewing multiple top genres together provides clearer insight into trends
 
 
 ## Future Improvements
 
-*Expanding analysis with additional datasets
-*Exploring correlations with ratings, revenue, etc.
-*Applying time-series methods for trend prediction
+- Expanding analysis with additional datasets
+- Exploring correlations with ratings, revenue, etc.
+- Applying time-series methods for trend prediction
+
+-----
+
+# 项目概述
+
+本项目基于 IMDb Top 1000 数据集，对不同时代电影类型的变化趋势进行分析。
+通过对各年份的类型分布进行可视化，观察不同年代中主流电影类型的变化情况，并整体把握其发展趋势。
+
+## 数据来源
+
+本项目使用了 Kaggle 上的 IMDb Top 1000 数据集：
+https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
+
+原始 CSV 文件已包含在项目文件夹中。
+
+## 使用库
+Pandas
+Matplotlib
+
+
+# 分析内容
+1. 基础趋势分析 (basic_analysis.py)
+
+对各个时期占比最高的电影类型进行分析，并通过柱状图进行可视化。
+可以直观地观察不同年代主导类型的变化。
+
+2. 比例分析 (more_analysis.py)
+
+在原有基础上扩展，将前三名类型以堆叠柱状图的形式展示。
+不仅可以看到最主要的类型，还可以比较不同类型之间的相对比例，使趋势更加清晰。
+
+## 主要结论
+
+- 不同年代的主流电影类型存在明显变化
+- 部分类型长期保持较高占比
+- 同时观察多个主要类型有助于更准确地理解趋势
+
+
+## 后续改进方向
+
+- 引入更多数据集进行对比分析
+- 探索类型与评分、票房等因素之间的关系
+- 使用时间序列方法进行趋势预测
