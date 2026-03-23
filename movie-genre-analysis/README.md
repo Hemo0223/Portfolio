@@ -1,12 +1,12 @@
 # README
 
-언어 순서
+언어 순서: 
 한국어, 영어, 중국어
 
-Language Order
+Language Order: 
 Korean, English, Chinese
 
-语言顺序
+语言顺序: 
 韩语、英语、中文
 
 -----
