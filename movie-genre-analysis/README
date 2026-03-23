@@ -1,5 +1,46 @@
 README
 
+언어 순서: 한국어, 영어, 중국어 입니다.
+Language order: Korean, English, and Chinese.
+语言顺序：韩语、英语、中文。
+
+-----
+
+# 프로젝트 배경
+이건 제 첫번째 포트폴리오입니다.
+
+시대의 변화에 따라 인기가 많은 영화 장르가 무엇인지 분석한다면, 앞으로 어떤 장르가 인기를 끌 수 있을지 예측할 수 있을 거라는 생각으로 이 코드를 작성했습니다.
+
+
+# 데이터 소스
+캐글에서 imdb_top_1000.csv 데이터베이스 파일을 다운받았습니다.
+
+<https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows>
+
+프로젝트 폴더 안에도 원본 CSV파일이 있습니다.
+
+
+# 사용 라이브러리
+python 라이브러리인 pandas와 matplotlib을 사용했습니다.
+
+
+# 분석 디테일
+1. 단순 트렌드 분석 (basic_analysis.py)
+이 코드는 시대마다 어떤 영화 장르가 인기를 가장 많이 끌었는지에 초점을 맞췄습니다. 이는 막대그래프로 시각화하여 연도별 top_1000안에 드는 영화가 어떤 것인지 볼 수 있습니다.
+
+![Basic Bar Chart](./basic_analysis.png)
+
+2. 세부사항 분석 (more_analysis.py)
+top3에 드는 장르까지 시각화해서 막대그래프를 이루게 한다면, 어떤 결과가 나올지 호기심이 생겨서 코드를 살짝 수정해봤습니다. 이 코드에서는 그저 인기가 최고로 많았던 영화 장르뿐 아니라, top3장르를 전부 보이게 하여 트렌드를 쉽게 예측할 수 있을 것입니다.
+
+![more Bar Chart](./more_analysis.png)
+
+---
+
+# 미래 목표
+작지만 제게는 꽤 의미있는 프로젝트였습니다. 앞으로도 수준을 갈고닦고 높혀서 포트폴리오를 채워나가도록 하겠습니다.
+
+-----
 
 # Project Overview
 This is my very first portfolio project.
@@ -26,7 +67,43 @@ This script focuses on identifying the most dominant genres per decade. It gener
 ![Basic Bar Chart](./basic_analysis.png)
 
 2. Advanced Proportion Analysis (more_analysis.py)
-Driven by curiosity to see a more detailed breakdown, I refined the code to visualize the top 3 genres as a stacked bar chart. This version allows you to see not just the #1 genre, but the relative proportions of the top three leading genres, making the trends much easier to interpret.
+Driven by curiosity to see a more detailed breakdown, I refined the code to visualize the top 3 genres as a stacked bar chart. TThis version shows not only the top genre but also relative proportions of the top three leading genres, making the trends much easier to interpret.
+
+![more Bar Chart](./more_analysis.png)
+
+---
+
+# Future Goals
+This was a small but significant milestone for me. I will continue improving my skills and will continue to build a more robust portfolio with increasingly advanced projects.
+
+-----
+
+# Project Overview
+This is my very first portfolio project.
+
+I developed this code based on the idea that analyzing shifts in popular movie genres over the decades could help us predict which genres will trend in the future.
+
+
+# Data Source
+I used the imdb_top_1000.csv dataset from Kaggle.
+
+<https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows>
+
+The raw CSV file is also uploaded within this project folder for easy access.
+
+
+# Used Library
+I used the Python libraries Pandas and Matplotlib.
+
+
+# Analysis Details
+1. Basic Trend Analysis (basic_analysis.py)
+This script focuses on identifying the most dominant genres per decade. It generates a bar chart that visualizes the distribution of movies that made it into the IMDB Top 1000 list over time.
+
+![Basic Bar Chart](./basic_analysis.png)
+
+2. Advanced Proportion Analysis (more_analysis.py)
+To explore a more detailed breakdown, I refined the code to visualize the top 3 genres as a stacked bar chart. This version allows you to see not just the #1 genre, but the relative proportions of the top three leading genres, making the trends much easier to interpret.
 
 ![more Bar Chart](./more_analysis.png)
 
@@ -34,3 +111,4 @@ Driven by curiosity to see a more detailed breakdown, I refined the code to visu
 
 # Future Goals
 This was a small but significant milestone for me. I am committed to leveling up my skills and will continue to build a more robust portfolio with increasingly advanced projects.
+
