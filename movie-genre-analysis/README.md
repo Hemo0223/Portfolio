@@ -34,12 +34,12 @@ https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movie
 
 # 분석 내용
 <br>
-1. 기본 트렌드 분석 (basic_analysis.py)  
+1. 기본 트렌드 분석 (basic_analysis.py) <br>
 <br>
 연도별로 가장 높은 비중을 차지한 영화 장르를 분석하고, 이를 막대그래프로 시각화했습니다. <br>
 이를 통해 시대별 대표 장르의 변화를 한눈에 확인할 수 있습니다. <br>
 
-![Basic Bar Chart](./basic_analysis.png)
+![Basic Bar Chart](../movie-genre-analysis/2026_Mar_06/basic_analysis.png)
 
 
 <br> <br>
@@ -48,7 +48,7 @@ https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movie
 상위 3개 장르를 스택형 막대그래프로 시각화하여, 각 장르의 상대적인 비율을 함께 확인할 수 있도록 개선했습니다. <br>
 단일 장르뿐 아니라, 주요 장르 간의 비중 변화를 비교할 수 있습니다. <br>
 
-![more Bar Chart](./more_analysis.png)
+![more Bar Chart](../movie-genre-analysis/2026_Mar_06/more_analysis.png)
 
 
 <br><br> 
@@ -96,12 +96,12 @@ The raw CSV file is included in the project folder.
 <br><br>
 
 # Analysis Details  
-1. Basic Trend Analysis (basic_analysis.py)  
+1. Basic Trend Analysis (basic_analysis.py)  <br>
 <br>
 This script identifies the most dominant genre for each period and visualizes the results using a bar chart. <br>
 It provides a clear view of how leading genres have changed over time. <br>
 
-![Basic Bar Chart](./basic_analysis.png)
+![Basic Bar Chart](../movie-genre-analysis/2026_Mar_06/basic_analysis.png)
 
 
 <br> <br>
@@ -110,7 +110,7 @@ It provides a clear view of how leading genres have changed over time. <br>
 This version extends the analysis by visualizing the top three genres as a stacked bar chart. <br>
 It shows not only the most dominant genre but also the relative proportions of the top genres, making trends easier to interpret. <br>
 
-![more Bar Chart](./more_analysis.png)
+![more Bar Chart](../movie-genre-analysis/2026_Mar_06/more_analysis.png)
 
 
 <br><br>
@@ -157,19 +157,19 @@ https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movie
 <br><br>
 
 # 分析内容
-1. 基础趋势分析 (basic_analysis.py) <br>
+1. 基础趋势分析 (basic_analysis.py) <br> <br>
 对各个时期占比最高的电影类型进行分析，并通过柱状图进行可视化。 <br>
 可以直观地观察不同年代主导类型的变化。<br>
 
-![Basic Bar Chart](./basic_analysis.png)
+![Basic Bar Chart](../movie-genre-analysis/2026_Mar_06/basic_analysis.png)
 
 
 <br> <br>
-2. 比例分析 (more_analysis.py) <br>
+2. 比例分析 (more_analysis.py) <br> <br>
 在原有基础上扩展，将前三名类型以堆叠柱状图的形式展示。 <br>
 不仅可以看到最主要的类型，还可以比较不同类型之间的相对比例，使趋势更加清晰。<br>
 
-![more Bar Chart](./more_analysis.png)
+![more Bar Chart](../movie-genre-analysis/2026_Mar_06/more_analysis.png)
 
 
 <br><br>
