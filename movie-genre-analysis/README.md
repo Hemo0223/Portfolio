@@ -2,17 +2,20 @@
 
 언어 순서 <br>
 한국어, 영어, 중국어<br>
+
 <br>
 Language Order  <br>
 Korean, English, Chinese<br>
+
 <br>
 语言顺序  <br>
-韩语、英语、中文<br
-<br>
+韩语、英语、中文<br>
+
 -----  
 <br>
-# 프로젝트 개요
-<br>
+
+# 프로젝트 개요 <br>
+
 이 프로젝트는 IMDb Top 1000 데이터를 기반으로, 시대별 영화 장르의 변화 추이를 분석하기 위해 제작되었습니다.
 연도별 장르 분포를 시각화하여, 특정 시기에 어떤 장르가 두드러졌는지 확인하고 전반적인 트렌드를 파악하는 것을 목표로 합니다.
 <br>
@@ -23,6 +26,7 @@ https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movie
 <br>
 원본 CSV 파일은 프로젝트 폴더 내에 포함되어 있습니다.
 <br>
+
 ## 사용 라이브러리  
 Pandas  
 Matplotlib  
@@ -40,14 +44,14 @@ Matplotlib
 상위 3개 장르를 스택형 막대그래프로 시각화하여, 각 장르의 상대적인 비율을 함께 확인할 수 있도록 개선했습니다.<br>
 단일 장르뿐 아니라, 주요 장르 간의 비중 변화를 비교할 수 있습니다.<br>
 <br>
-<br>
+
 ## 주요 결과    
 <br>
 - 시대에 따라 우세한 장르가 변화하는 경향이 확인됨  
 - 특정 장르가 지속적으로 상위권을 유지하는 패턴 존재  
 - 단일 장르보다 복수 장르의 비율을 함께 볼 때 트렌드 해석이 더 명확해짐  
 <br>
-<br>
+
 ## 향후 개선 방향  
 <br>
 - 더 많은 데이터셋을 활용한 비교 분석  
@@ -57,7 +61,8 @@ Matplotlib
 <br>
 -----
 <br>
-<br>
+
+
 # Project Overview  
 
 This project analyzes trends in movie genres over time using the IMDb Top 1000 dataset.  
@@ -97,6 +102,7 @@ It shows not only the most dominant genre but also the relative proportions of t
 - Expanding analysis with additional datasets
 - Exploring correlations with ratings, revenue, etc.
 - Applying time-series methods for trend prediction
+
 <br>
 <br>
 -----
